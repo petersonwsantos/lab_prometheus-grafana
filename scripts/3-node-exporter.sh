@@ -35,3 +35,4 @@ cat >> /etc/prometheus/prometheus.yml <<EOF
       - targets: ['localhost:9100']
 EOF
 
+systemctl restart prometheus
